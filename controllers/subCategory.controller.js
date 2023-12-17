@@ -1,5 +1,5 @@
-const SubCategory = require("../models/subCategoryModel");
-const factory = require("./handlerFactory");
+const SubCategory = require('../models/subCategoryModel');
+const factory = require('./handlerFactory');
 
 exports.setCategoryIdToBody = (req, res, next) => {
   // Nested route
